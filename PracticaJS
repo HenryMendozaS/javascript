@@ -1,0 +1,22 @@
+var mysong = "Mi lista de canciones preferidas";
+console.log (mysong);
+var c1="Someone like you";
+var c2="Pueblito viejo";
+var c3="Tu estas en mi mente";
+var c4="Tu fragancia";
+var c5="La gloria de Dios";
+var ct1= 0;
+
+function song (a,b){
+    var mysongs = b;
+    var id = a.toString();
+    var txt = id+'. '+mysongs;
+    console.log(txt);
+    return(txt);
+}
+
+var mylist = song(1,c1);
+var mylist = song(2,c2);
+var mylist = song(3,c3);
+var mylist = song(4,c4);
+var mylist = song(5,c5);
